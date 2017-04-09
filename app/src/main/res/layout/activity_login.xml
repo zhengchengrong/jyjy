@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bg"
+    tools:context="com.jy.jyjy.MainActivity">
+
+    <ImageView
+        android:id="@+id/login_iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/logo"
+        android:layout_marginTop="@dimen/dp_45"
+         />
+
+    <TextView
+        android:id="@+id/login_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_30"
+        android:text="嘉医检验"
+        android:textColor="#FF489BEE"
+        android:textSize="23sp"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/login_iv_logo"
+        android:layout_marginTop="@dimen/dp_6"
+        />
+
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/dp_94"
+          android:layout_below="@+id/login_tv_name"
+          android:layout_marginTop="@dimen/dp_40"
+          android:background="@drawable/login_border"
+          android:layout_centerHorizontal="true"
+          android:layout_marginLeft="@dimen/dp_25"
+          android:layout_marginRight="@dimen/dp_25"
+          >
+
+
+      </RelativeLayout>
+
+</RelativeLayout>
